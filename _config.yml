@@ -2,51 +2,52 @@
 
 menu:
   主页: /
-  相册: /photos
+  #相册: /photos
 
 # SubNav
 subnav:
-  github: "https://github.com/litten"
-  weibo: "http://weibo.com/litten225"
-  rss: /atom.xml
-  #zhihu: "#"
+  github: "https://github.com/windzz"
+  #weibo: "http://weibo.com/litten225"
+  #rss: /atom.xml
+  #qq: '763085631'
+  #zhihu: "https://www.zhihu.com/people/windzz"
   #douban: "#"
   #segmentfault: "#"
-  #mail: "mailto:litten225@qq.com"
+  mail: "mailto:windzz1024@gmail.com"
   #facebook: "#"
   #google: "#"
   #twitter: "#"
   #linkedin: "#"
 
-rss: /atom.xml
+#rss: /atom.xml
 
 # 是否需要修改 root 路径
 # 如果您的网站存放在子目录中，例如 http://yoursite.com/blog，
 # 请将您的 url 设为 http://yoursite.com/blog 并把 root 设为 /blog/。
-root: 
+root:
 
 # Content
 excerpt_link: 'more'
 show_all_link: '展开全文'
 fancybox: true
-mathjax: false
+mathjax: true
 
 # 打赏
 reward_type: 1
 reward_wording: '谢谢你请我吃糖果'
-alipay: /assets/img/alipay.jpg
-weixin: /assets/img/weixin.jpg
+alipay: /assets/img/alipay.png
+weixin: /assets/img/wxpay.png
 
 # 是否在新窗口打开链接
 open_in_new: true
 
 # Miscellaneous
-baidu_analytics: 'a30844fa2bcbce0a9e001fe06cefeddf'
+baidu_analytics: '40e714083c3957156625c0915c780732'
 google_analytics: false
 favicon: /assets/img/favicon.ico
 
 #你的头像url
-avatar: /assets/blogImg/litten.png
+avatar: '/assets/blogImg/windzz4.png'
 
 #是否开启分享
 share_jia: true
@@ -56,7 +57,8 @@ mobile:
 
 #是否开启多说评论，填写你在多说申请的项目名称 duoshuo: duoshuo-key
 #若使用disqus，请在博客config文件中填写disqus_shortname，并关闭多说评论
-duoshuo: "litten-hexo"
+#duoshuo: "litten-hexo"
+changyan: "cysUyhexJ"
 
 # 样式定制 - 一般不需要修改，除非有很强的定制欲望…
 style:
@@ -68,24 +70,19 @@ style:
 # slider的设置
 slider:
   # 是否默认展开tags板块
-  showTags: false
+  showTags: true
 
 # 如不需要，将该项置为false
 # 比如
 #smart_menu:
-#  friends: false
+  #friends: true
 
 smart_menu:
   innerArchive: '所有文章'
-  friends: false
+  friends: '友链'
   aboutme: '关于我'
 
 friends:
-  友情链接1: http://localhost:4000/
-  友情链接2: http://localhost:4000/
-  友情链接3: http://localhost:4000/
-  友情链接4: http://localhost:4000/
-  友情链接5: http://localhost:4000/
-  友情链接6: http://localhost:4000/
+  Litten 主题作者: http://litten.me/
 
-aboutme: Litten，<br>毕业于华科，就职于鹅厂<br><br>热爱大海与冷笑话，<br/>目前是一枚前端<br/><br/>胆小认生，不易相处，<br>年轻无为，卖马为生。
+aboutme: Windzz，<br>毕业于石家庄学院，就职于达令<br><br>酷爱乡村爱情，<br/>目前是一枚拍片儿的艺术家(PHP程序员)<br/><br/>踏踏实实做人,诚心诚意做事，<br/>高贵的气质源于兢兢业业，<br/>森屿暖树，墒以光年。
